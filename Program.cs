@@ -10,7 +10,7 @@ namespace PostgresSampleApp
 {
     public class Program
     {
-        static HttpClient _hc;
+        static HttpClient _hc = new HttpClient();
         
         static async Task MaintainAsync()
         {
