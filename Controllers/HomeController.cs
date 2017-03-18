@@ -13,7 +13,7 @@ namespace PostgresSampleApp.Controllers
         public IActionResult Incr()
         {
             _count++;
-            return Content("Done");
+            return Content("Done!");
         }
         
         public IActionResult Show()
